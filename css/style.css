@@ -8,6 +8,8 @@ body{
     border: solid#808080ce;
     margin:50px;
     height: 1000px; 
+    justify-content: space-between;
+    align-items: flex-start;
     
 }
 
@@ -60,21 +62,38 @@ body{
     color:#e6eeff;
 }
 .subcontainer-4 {
-    flex :1;
     height: 100vh;
     display: flex;
+    border: solid#0a0808ce;
+    margin-left: 50px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    
 
 }
 .tagline {
-    width:400px
+    width:400px;
+    padding-left: 200px;
 }
 .tagline h2 {
     font-weight: 500;
     font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    
     line-height: 50px;
     color: #0EBAEE;
     font-family: 'Raleway', sans-serif;
+}
+.cmnt{
+    margin: 30px 0 0 80px;
+
+}
+.cmnt h2 {
+    font-family: cursive;
+    
+}
+.subclass-2{
+    
 }
